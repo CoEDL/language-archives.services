@@ -1,7 +1,3 @@
-> # Development of this application has moved to https://github.com/CoEDL/language-archives.services.
->
-> ## Issues raised here will be ignored.
-
 # language-archives.services
 
 This is the base website and associated docker container code and stack configuration
