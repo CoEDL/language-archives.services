@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>Data Loader</h4>
         </div>
@@ -27,14 +27,14 @@
         <p>
             - This is a desktop application. Download the latest version from
             <a
-                href="https://github.com/marcolarosa/pdsc-data-loader/releases"
+                href="https://github.com/CoEDL/data-loader/releases"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-data-loader/releases</a>.
+            >https://github.com/CoEDL/data-loader/releases</a>.
             <br />- The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-data-loader"
+                href="https://github.com/CoEDL/data-loader"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-data-loader</a>.
+            >https://github.com/CoEDL/data-loader</a>.
         </p>
         <div class="outer">
             <el-image src="assets/images/dataloader.new.png" fit="fill"></el-image>

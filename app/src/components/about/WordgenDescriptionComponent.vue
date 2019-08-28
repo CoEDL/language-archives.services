@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>Word Generator</h4>
         </div>
@@ -27,10 +27,10 @@
                 href="http://paradisec.org.au/wordgen/wg.php"
                 target="_blank"
             >http://paradisec.org.au/wordgen/wg.php</a>
-            <br>
+            <br />
         </p>
         <div class="outer">
-            <img src="assets/images/wordgen.png" class="style-image position-image1">
+            <img src="assets/images/wordgen.png" class="style-image position-image1" />
         </div>
     </div>
 </template>

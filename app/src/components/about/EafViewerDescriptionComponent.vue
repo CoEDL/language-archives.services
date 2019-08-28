@@ -19,16 +19,16 @@
         <p>
             This is a desktop application. Download the latest version from
             <a
-                href="https://github.com/marcolarosa/pdsc-eaf-viewer/releases"
+                href="https://github.com/CoEDL/eaf-viewer/releases"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-eaf-viewer/releases</a>.
+            >https://github.com/CoEDL/eaf-viewer/releases</a>.
         </p>
         <p>
-            <br />- The source code is accessible @
+            - The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-eaf-viewer"
+                href="https://github.com/CoEDL/eaf-viewer"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-eaf-viewer</a>.
+            >https://github.com/CoEDL/eaf-viewer</a>.
         </p>
         <div class="outer">
             <el-carousel type="card" height="500px">

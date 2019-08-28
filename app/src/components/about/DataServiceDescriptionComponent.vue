@@ -1,11 +1,11 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>Data Loader</h4>
         </div>
         <p>
             The
-            <router-link to="/about/olac-vis">OLAC visualisation</router-link>was an acceptable first attempt at making the data
+            <router-link to="/about/olac-vis">OLAC visualisation</router-link>&nbsp;was an acceptable first attempt at making the data
             listed at the language archives site accessible but it was not without issues. The technology underpinning the site
             proved to be slow and there was no sense of how the underlying data was changing with time.
         </p>
@@ -20,14 +20,14 @@
                 href="http://language-archives.services/api"
                 target="_blank"
             >http://language-archives.services/api</a>
-            <br>- The source code is accessible @
+            <br />- The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-olac-datasource"
+                href="https://github.com/CoEDL/olac-datasource"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-olac-datasource</a>
+            >https://github.com/CoEDL/olac-datasource</a>
         </p>
         <div class="outer">
-            <el-image src="assets/images/olacdata.jpg" fit="fill"/>
+            <el-image src="assets/images/olacdata.jpg" fit="fill" />
         </div>
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>Mobile Collection Viewer</h4>
         </div>
@@ -26,9 +26,9 @@
             >http://language-archives.services/mobile-viewer/</a>
             <br />- The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-collection-viewer-v2"
+                href="https://github.com/CoEDL/nabu-collection-viewer-v2"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-collection-viewer-v2</a>
+            >https://github.com/CoEDL/nabu-collection-viewer-v2</a>
         </p>
         <div class="outer">
             <el-carousel type="card" height="500px">

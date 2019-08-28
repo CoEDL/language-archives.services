@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>Language Archives data visualisation</h4>
         </div>
@@ -26,9 +26,9 @@
             >http://language-archives.services/olacvis/</a>
             <br />- The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-olac-visualisation"
+                href="https://github.com/CoEDL/olac-visualisation-v1"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-olac-visualisation</a>
+            >https://github.com/CoEDL/olac-visualisation-v1</a>
         </p>
         <div class="outer">
             <el-carousel type="card" height="500px">

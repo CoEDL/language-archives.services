@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>50 Words</h4>
         </div>
@@ -17,9 +17,9 @@
             >http://50words.online</a>
             <br />- The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-50-words"
+                href="https://github.com/CoEDL/50words.online"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-50-words</a>
+            >https://github.com/CoEDL/50words.online</a>
         </p>
         <div class="outer">
             <el-carousel type="card" height="500px">

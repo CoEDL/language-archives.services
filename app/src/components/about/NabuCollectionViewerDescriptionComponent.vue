@@ -1,5 +1,5 @@
 <template>
-    <div class="px-5">
+    <div class="px-lg-5">
         <div slot="header" class="clearfix">
             <h4>Nabu Collection Viewer</h4>
         </div>
@@ -11,9 +11,9 @@
         <p>
             - The source code is accessible @
             <a
-                href="https://github.com/marcolarosa/pdsc-collection-viewer"
+                href="https://github.com/CoEDL/nabu-collection-viewer-v1"
                 target="_blank"
-            >https://github.com/marcolarosa/pdsc-collection-viewer</a>
+            >https://github.com/CoEDL/nabu-collection-viewer-v1</a>
         </p>
         <div class="outer">
             <el-carousel type="card" height="500px">
