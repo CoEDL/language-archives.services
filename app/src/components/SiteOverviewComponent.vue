@@ -48,50 +48,50 @@
                         target="_blank"
                     >GNU/GPL General Public License</a>
                 </p>
+            </div>
+        </div>
 
-                <div class="row my-5">
+        <div class="row my-5">
+            <div class="col">
+                <div class="row">
                     <div class="col">
-                        <div class="row">
-                            <div class="col">
-                                <h5>People</h5>
-                            </div>
-                        </div>
-                        <div class="row my-4">
-                            <div class="col">
-                                The projects shown in this site are led by
-                                <a
-                                    href="http://nthieberger.net"
-                                    target="_blank"
-                                >Associate Professor Nick Thieberger</a>
-                                and
-                                have been funded as part of the
-                                ARC Centre of Excellence for the Dynamics of Language (ARC grant CE140100041)
-                            </div>
-                        </div>
-                        <div class="row my-4">
-                            <div class="col">
-                                The developer of many of these applications is
-                                <a
-                                    href="https://github.com/marcolarosa"
-                                    target="_blank"
-                                >Dr Marco La Rosa</a>.
-                            </div>
-                        </div>
+                        <h5>People</h5>
                     </div>
                 </div>
-                <div class="text-center px-auto">
-                    <div v-masonry transition-duration="0s" item-selector=".item">
-                        <div v-masonry-tile class="item" v-for="(item, idx) in items" :key="idx">
-                            <el-card class="style-card style-tile">
-                                <div slot="header" class="style-tile-header style-tile-title">
-                                    <router-link :to="item.uri">{{item.name}}</router-link>
-                                </div>
-                                <router-link :to="item.uri">
-                                    <img :src="item.image" class="style-image mx-auto d-block" />
-                                </router-link>
-                            </el-card>
-                        </div>
+                <div class="row my-4">
+                    <div class="col">
+                        The projects shown in this site are led by
+                        <a
+                            href="http://nthieberger.net"
+                            target="_blank"
+                        >Associate Professor Nick Thieberger</a>
+                        and
+                        have been funded as part of the
+                        ARC Centre of Excellence for the Dynamics of Language (ARC grant CE140100041)
                     </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col">
+                        The developer of many of these applications is
+                        <a
+                            href="https://github.com/marcolarosa"
+                            target="_blank"
+                        >Dr Marco La Rosa</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center px-auto">
+            <div v-masonry transition-duration="0s" item-selector=".item">
+                <div v-masonry-tile class="item" v-for="(item, idx) in items" :key="idx">
+                    <el-card class="style-card style-tile">
+                        <div slot="header" class="style-tile-header style-tile-title">
+                            <router-link :to="item.uri">{{item.name}}</router-link>
+                        </div>
+                        <router-link :to="item.uri">
+                            <img :src="item.image" class="style-image mx-auto d-block" />
+                        </router-link>
+                    </el-card>
                 </div>
             </div>
         </div>
@@ -243,14 +243,11 @@ export default {
         letter-spacing: 1px;
     }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1200px) {
     .style-tile {
-        min-width: calc((100vw / 3) - 100px);
-        max-width: calc((100vw / 3) - 100px);
+        min-width: 500px;
+        max-width: 500px;
         padding: 0 50px;
-    }
-    .style-tile-header {
-        // font-size: 1.1em;
     }
 }
 </style>

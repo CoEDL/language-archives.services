@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid">
+    <div class="container-fluid style-app">
         <router-view></router-view>
     </div>
 </template>
@@ -10,5 +10,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.style-app {
+}
+@media screen and (min-width: 1200px) {
+    .style-app {
+        width: 1200px;
+    }
+}
 </style>
