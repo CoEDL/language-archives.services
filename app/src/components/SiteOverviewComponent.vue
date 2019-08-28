@@ -31,6 +31,10 @@
                     curating them for research purposes.
                 </p>
                 <p>
+                    This site is a demonstrator of the technologies we're developing. Links to the
+                    code are provided.
+                </p>
+                <p>
                     To read more about what we do
                     <a
                         href="http://www.dynamicsoflanguage.edu.au"
@@ -45,6 +49,36 @@
                     >GNU/GPL General Public License</a>
                 </p>
 
+                <div class="row my-5">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <h5>People</h5>
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col">
+                                The projects shown in this site are led by
+                                <a
+                                    href="http://nthieberger.net"
+                                    target="_blank"
+                                >Associate Professor Nick Thieberger</a>
+                                and
+                                have been funded as part of the
+                                ARC Centre of Excellence for the Dynamics of Language (ARC grant CE140100041)
+                            </div>
+                        </div>
+                        <div class="row my-4">
+                            <div class="col">
+                                The developer of many of these applications is
+                                <a
+                                    href="https://github.com/marcolarosa"
+                                    target="_blank"
+                                >Dr Marco La Rosa</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="text-center px-auto">
                     <div v-masonry transition-duration="0s" item-selector=".item">
                         <div v-masonry-tile class="item" v-for="(item, idx) in items" :key="idx">
@@ -59,23 +93,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row pad-funding-note">
-            <div class="col">
-                <p class="text-center">
-                    <em>
-                        <strong>
-                            The projects shown in this site are led by
-                            <a
-                                href="http://nthieberger.net"
-                                target="_blank"
-                            >Nick Thieberger</a> and
-                            have been funded as part of the
-                            ARC Centre of Excellence for the Dynamics of Language (ARC grant CE140100041).
-                        </strong>
-                    </em>
-                </p>
             </div>
         </div>
     </div>
@@ -194,7 +211,7 @@ export default {
 }
 
 .style-card {
-    border: 2px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
