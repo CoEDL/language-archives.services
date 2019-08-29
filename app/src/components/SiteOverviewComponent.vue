@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div class="row my-5">
+        <div class="row mt-5 mb-2">
             <div class="col">
                 <div class="row">
                     <div class="col">
@@ -72,13 +72,33 @@
                 </div>
                 <div class="row my-4">
                     <div class="col">
-                        The developer of many of these applications is
+                        The primary developer of these applications is
                         <a
                             href="https://github.com/marcolarosa"
                             target="_blank"
                         >Dr Marco La Rosa</a>.
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="row my-2 py-5 style-logo-row">
+            <div class="col text-center">
+                <a href="https://www.arc.gov.au/" target="_blank">
+                    <img src="assets/images/ARC-2x.gif" class="style-logo px-3" />
+                </a>
+                <a href="https://www.uq.edu.au/" target="_blank">
+                    <img src="assets/images/UQ-2x.gif" class="style-logo px-3" />
+                </a>
+                <a href="https://www.anu.edu.au/" target="_blank">
+                    <img src="assets/images/ANU-2x.gif" class="style-logo px-3" />
+                </a>
+                <a href="https://www.unimelb.edu.au/" target="_blank">
+                    <img src="assets/images/UM-2x.gif" class="style-logo px-2" />
+                </a>
+                <a href="https://www.westernsydney.edu.au/" target="_blank">
+                    <img src="assets/images/WSU-2x.png" class="style-logo px-2" />
+                </a>
             </div>
         </div>
         <div class="text-center px-auto">
@@ -222,6 +242,13 @@ export default {
     // box-shadow: 10px 10px 20px 0px rgba(212, 212, 212, 1);
 }
 
+.style-logo {
+    width: 18%;
+}
+
+.style-logo-row {
+    background-color: rgb(245, 245, 245);
+}
 .style-tile {
     min-width: calc(100vw 100px);
     max-width: calc(100vw 100px);
