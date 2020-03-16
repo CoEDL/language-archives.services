@@ -17,12 +17,12 @@ p {
 
 a:link,
 a:visited {
-    text-decoration: none;
-    color: $link-color;
-    font-style: italic;
+    @apply text-orange-700 no-underline;
+    // color: $link-color;
+    // font-style: italic;;
 }
 
 a:hover,
 a:active {
-    text-decoration: underline;
+    @apply text-blue-600 no-underline;
 }

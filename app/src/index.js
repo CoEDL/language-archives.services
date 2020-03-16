@@ -7,11 +7,9 @@ import Vue from "vue";
 import ElementUI from "element-ui";
 import locale from "element-ui/lib/locale/lang/en";
 import VueScrollTo from "vue-scrollto";
-import { VueMasonryPlugin } from "vue-masonry";
 import VueAnalytics from "vue-analytics";
 Vue.use(ElementUI, { locale });
 Vue.use(VueScrollTo);
-Vue.use(VueMasonryPlugin);
 
 import App from "components/app.vue";
 import { router } from "routes";

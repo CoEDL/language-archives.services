@@ -1,117 +1,116 @@
 <template>
     <div>
-        <div class="row">
-            <div class="col style-text">
-                <p>
-                    The Centre of Excellence for the Dynamics of Language is focussed on investigating
-                    how languages
-                    <a
-                        href="http://www.dynamicsoflanguage.edu.au/research/language-diversity/"
-                        target="_blank"
-                    >vary</a>,
-                    how we learn
-                    <a
-                        href="http://www.dynamicsoflanguage.edu.au/research/language-learning/"
-                        target="_blank"
-                    >them</a>,
-                    how we
-                    <a
-                        href="http://www.dynamicsoflanguage.edu.au/research/language-processing/"
-                        target="_blank"
-                    >process</a>
-                    them and how they
-                    <a
-                        href="http://www.dynamicsoflanguage.edu.au/research/language-evolution/"
-                        target="_blank"
-                    >evolve</a>.
-                </p>
-                <p>
-                    A key aspect of our work is the use and development of cutting edge technologies
-                    to facilitate community access to primary records at the same time as
-                    curating them for research purposes.
-                </p>
-                <p>
-                    This site is a demonstrator of the technologies we're developing. Links to the
-                    code are provided.
-                </p>
-                <p>
-                    To read more about what we do
-                    <a
-                        href="http://www.dynamicsoflanguage.edu.au"
-                        target="_blank"
-                    >visit our main site.</a>
-                </p>
-                <p class="text-muted style-link">
-                    All material is provided under a
-                    <a
-                        href="https://www.gnu.org/licenses/gpl-3.0.en.html"
-                        target="_blank"
-                    >GNU/GPL General Public License</a>
-                </p>
+        <div class="flex flex-col text-xl">
+            <p>
+                The Centre of Excellence for the Dynamics of Language is
+                focussed on investigating how languages
+                <a
+                    href="http://www.dynamicsoflanguage.edu.au/research/language-diversity/"
+                    target="_blank"
+                    >vary</a
+                >, how we learn
+                <a
+                    href="http://www.dynamicsoflanguage.edu.au/research/language-learning/"
+                    target="_blank"
+                    >them</a
+                >, how we
+                <a
+                    href="http://www.dynamicsoflanguage.edu.au/research/language-processing/"
+                    target="_blank"
+                    >process</a
+                >
+                them and how they
+                <a
+                    href="http://www.dynamicsoflanguage.edu.au/research/language-evolution/"
+                    target="_blank"
+                    >evolve</a
+                >.
+            </p>
+            <p>
+                A key aspect of our work is the use and development of cutting
+                edge technologies to facilitate community access to primary
+                records at the same time as curating them for research purposes.
+            </p>
+            <p>
+                This site is a demonstrator of the technologies we're
+                developing. Links to the code are provided.
+            </p>
+            <p>
+                To read more about what we do
+                <a href="http://www.dynamicsoflanguage.edu.au" target="_blank"
+                    >visit our main site.</a
+                >
+            </p>
+            <p class="text-muted text-sm">
+                All material is provided under a
+                <a
+                    href="https://www.gnu.org/licenses/gpl-3.0.en.html"
+                    target="_blank"
+                    >GNU/GPL General Public License</a
+                >
+            </p>
+        </div>
+
+        <div class="flex flex-col m-4">
+            <div class="text-2xl">People</div>
+            <div class="text-lg my-2">
+                The projects shown in this site are led by
+                <a href="http://nthieberger.net" target="_blank"
+                    >Associate Professor Nick Thieberger</a
+                >
+                and have been funded as part of the ARC Centre of Excellence for
+                the Dynamics of Language (ARC grant CE140100041)
+            </div>
+            <div class="text-lg my-2">
+                The primary developer of these applications is
+                <a href="https://github.com/marcolarosa" target="_blank"
+                    >Dr Marco La Rosa</a
+                >.
             </div>
         </div>
 
-        <div class="row mt-5 mb-2">
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        <h5>People</h5>
-                    </div>
-                </div>
-                <div class="row my-4">
-                    <div class="col">
-                        The projects shown in this site are led by
-                        <a
-                            href="http://nthieberger.net"
-                            target="_blank"
-                        >Associate Professor Nick Thieberger</a>
-                        and
-                        have been funded as part of the
-                        ARC Centre of Excellence for the Dynamics of Language (ARC grant CE140100041)
-                    </div>
-                </div>
-                <div class="row my-4">
-                    <div class="col">
-                        The primary developer of these applications is
-                        <a
-                            href="https://github.com/marcolarosa"
-                            target="_blank"
-                        >Dr Marco La Rosa</a>.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row my-2 py-5 style-logo-row">
-            <div class="col text-center">
-                <a href="https://www.arc.gov.au/" target="_blank">
-                    <img src="assets/images/ARC-2x.gif" class="style-logo px-3" />
-                </a>
-                <a href="https://www.uq.edu.au/" target="_blank">
-                    <img src="assets/images/UQ-2x.gif" class="style-logo px-3" />
-                </a>
-                <a href="https://www.anu.edu.au/" target="_blank">
-                    <img src="assets/images/ANU-2x.gif" class="style-logo px-3" />
-                </a>
-                <a href="https://www.unimelb.edu.au/" target="_blank">
-                    <img src="assets/images/UM-2x.gif" class="style-logo px-2" />
-                </a>
-                <a href="https://www.westernsydney.edu.au/" target="_blank">
-                    <img src="assets/images/WSU-2x.png" class="style-logo px-2" />
-                </a>
-            </div>
+        <div class="flex flex-row items-center p-5 style-logo-row my-4">
+            <a href="https://www.arc.gov.au/" target="_blank" class="mx-2">
+                <img src="assets/images/ARC-2x.gif" />
+            </a>
+            <a href="https://www.uq.edu.au/" target="_blank" class="mx-2">
+                <img src="assets/images/UQ-2x.gif" />
+            </a>
+            <a href="https://www.anu.edu.au/" target="_blank" class="mx-2">
+                <img src="assets/images/ANU-2x.gif" />
+            </a>
+            <a href="https://www.unimelb.edu.au/" target="_blank" class="mx-2">
+                <img src="assets/images/UM-2x.gif" />
+            </a>
+            <a
+                href="https://www.westernsydney.edu.au/"
+                target="_blank"
+                class="mx-2"
+            >
+                <img src="assets/images/WSU-2x.png" />
+            </a>
         </div>
         <div class="text-center px-auto">
-            <div v-masonry transition-duration="0s" item-selector=".item">
-                <div v-masonry-tile class="item" v-for="(item, idx) in items" :key="idx">
-                    <el-card class="style-card style-tile">
-                        <div slot="header" class="style-tile-header style-tile-title">
-                            <router-link :to="item.uri">{{item.name}}</router-link>
-                        </div>
-                        <router-link :to="item.uri">
-                            <img :src="item.image" class="style-image mx-auto d-block" />
-                        </router-link>
-                    </el-card>
+            <div class="flex flex-row flex-wrap">
+                <div
+                    v-for="(item, idx) in items"
+                    :key="idx"
+                    class="w-full lg:w-1/2 xl:w-1/3 p-2 "
+                >
+                    <router-link :to="item.uri">
+                        <el-card
+                            class="shadow-2xl shadow-inner text-orange-700 hover:bg-orange-200 hover:text-gray-800 cursor-pointer"
+                            shadow="never"
+                        >
+                            <div slot="header" class="text-lg xl:text-base">
+                                {{ item.name }}
+                            </div>
+                            <img
+                                :src="item.image"
+                                class="h-64 w-full object-contain"
+                            />
+                        </el-card>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -212,69 +211,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "assets/variables.scss";
-.remove-padding {
-    padding: 0;
-}
-
-.pad-funding-note {
-    border-top: 1px solid #ccc;
-    margin-top: 50px;
-}
-
-.style-image {
-    width: 100%;
-    height: auto;
-}
-
-.style-link {
-    font-size: 14px;
-}
-
-.style-card {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-.style-image {
-    margin: 20px 2%;
-    // -webkit-box-shadow: 10px 10px 20px 0px rgba(212, 212, 212, 1);
-    // -moz-box-shadow: 10px 10px 20px 0px rgba(212, 212, 212, 1);
-    // box-shadow: 10px 10px 20px 0px rgba(212, 212, 212, 1);
-}
-
-.style-logo {
-    width: 18%;
-}
 
 .style-logo-row {
     background-color: rgb(245, 245, 245);
-}
-.style-tile {
-    min-width: calc(100vw 100px);
-    max-width: calc(100vw 100px);
-    margin: 15px;
-}
-@media only screen and (min-width: 768px) {
-    .style-tile {
-        min-width: calc((100vw / 2) - 80px);
-        max-width: calc((100vw / 2) - 80px);
-    }
-}
-@media only screen and (min-width: 1024px) {
-    .style-tile {
-        min-width: calc((100vw / 2) - 130px);
-        max-width: calc((100vw / 2) - 130px);
-    }
-    .style-text {
-        font-size: 1.2em;
-        letter-spacing: 1px;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .style-tile {
-        min-width: 500px;
-        max-width: 500px;
-        padding: 0 50px;
-    }
 }
 </style>
