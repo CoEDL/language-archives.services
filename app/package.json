@@ -6,7 +6,7 @@
     "scripts": {
         "develop": "npm install && node_modules/.bin/webpack-dev-server --hot --config webpack.develop.js",
         "unitTests": "node_modules/mocha/bin/mocha -w -r jsdom-global/register 'src/**/*.spec.js'",
-        "build:production": "npm install && node_modules/.bin/webpack --config webpack.build-production.js"
+        "build:production": "npm install && node_modules/.bin/webpack --config webpack.production.js"
     },
     "author": "Marco La Rosa",
     "license": "ISC",
@@ -20,6 +20,7 @@
         "mapbox-gl": "^1.8.1",
         "moment": "^2.24.0",
         "regenerator-runtime": "^0.13.5",
+        "tailwindcss": "^1.2.0",
         "vue": "^2.6.11",
         "vue-analytics": "^5.22.1",
         "vue-masonry": "^0.11.8",
@@ -44,6 +45,7 @@
         "mini-css-extract-plugin": "^0.9.0",
         "mocha": "^7.1.0",
         "node-sass": "^4.13.1",
+        "postcss-loader": "^3.0.0",
         "raw-loader": "^4.0.0",
         "sass-loader": "^8.0.2",
         "url-loader": "^3.0.0",
