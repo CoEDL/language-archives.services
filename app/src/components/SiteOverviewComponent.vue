@@ -99,7 +99,7 @@
                 >
                     <router-link :to="item.uri">
                         <el-card
-                            class="shadow-2xl shadow-inner text-orange-700 hover:bg-orange-200 hover:text-gray-800 cursor-pointer"
+                            class="shadow-2xl shadow-inner text-orange-700 hover:bg-gray-200 hover:text-gray-800 cursor-pointer"
                             shadow="never"
                         >
                             <div slot="header" class="text-lg xl:text-base">
