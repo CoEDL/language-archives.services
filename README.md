@@ -1,8 +1,11 @@
 # language-archives.services
 
+# THIS CODE IS NO LONGER IN USE. It was the original language-archives.services site but that has now been replaced with a wordpress instance.
+
 This is the base website and associated docker container code and stack configuration
 
 - [language-archives.services](#language-archivesservices)
+- [THIS CODE IS NO LONGER IN USE. It was the original language-archives.services site but that has now been replaced with a wordpress instance.](#this-code-is-no-longer-in-use-it-was-the-original-language-archivesservices-site-but-that-has-now-been-replaced-with-a-wordpress-instance)
   - [Developing the website](#developing-the-website)
   - [Building the website container](#building-the-website-container)
   - [Helper scripts](#helper-scripts)
